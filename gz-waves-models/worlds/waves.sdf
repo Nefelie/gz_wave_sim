@@ -111,9 +111,23 @@
     </include> -->
 
     <include>
-      <pose>15 0 0 0 0 1.51</pose>
+      <pose>40 0 0 0 0 1.51</pose>
       <uri>model://barrage</uri>
     </include>
 
+    <include>
+      <pose>55 0 0 0 0 1.51</pose>
+      <uri>model://vessel_e</uri>
+    </include>
+
+    <!-- <include>
+      <pose>5000 5000 0 0 0 0</pose>
+      <uri>model://harmonic_terrain</uri>
+    </include> -->
+
+    <include>
+      <pose>20 -15 0 0 0 0</pose>
+      <uri>model://pallet</uri>
+    </include>
   </world>
 </sdf>
